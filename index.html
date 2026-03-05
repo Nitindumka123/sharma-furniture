@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Sharma Furniture · Premium Furniture & Modular Kitchens</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- STICKY HEADER with enhanced hero section -->
+    <header class="sticky-header">
+        <div class="header-left">
+            <span class="shop-name">Sharma Furniture</span>
+            <span class="shop-tagline">Quality Furniture & Modular Kitchens at Affordable Prices</span>
+        </div>
+        <div class="header-icons">
+            <!-- Contact Info Dropdown Icon -->
+            <div class="contact-dropdown">
+                <i class="fas fa-phone-alt" id="contactIcon"></i>
+                <div class="dropdown-content" id="contactDropdown">
+                    <a href="tel:8630042048"><i class="fas fa-phone"></i> 8630042048</a>
+                    <a href="https://wa.me/918630042048?text=Hello%2C%20I%20want%20to%20ask%20about%20furniture%20from%20Sharma%20Furniture%20and%20Modular%20Kitchen." target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a href="mailto:sharmafurniture.store0@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://maps.app.goo.gl/k7aq9BwJpHhvkXzFA" target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                </div>
+            </div>
+            <i class="fas fa-shopping-cart" id="cartIconHeader"></i>
+        </div>
+    </header>
+
+    <!-- HERO SECTION - Enhanced -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Sharma Furniture</h1>
+            <p class="hero-subtitle">Quality Furniture & Modular Kitchens at Affordable Prices</p>
+            <div class="hero-cta">
+                <span class="hero-phone"><i class="fas fa-phone-alt"></i> 8630042048</span>
+                <span class="hero-wa"><i class="fab fa-whatsapp"></i> 24/7 Support</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEARCH SECTION -->
+    <div class="search-section">
+        <div class="search-wrapper">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Search by name or category ...">
+        </div>
+    </div>
+
+    <!-- CATEGORY FILTERS -->
+    <div class="category-tabs" id="categoryFilter">
+        <button class="cat-btn active" data-cat="all">All</button>
+        <button class="cat-btn" data-cat="Sofa Sets">Sofa Sets</button>
+        <button class="cat-btn" data-cat="Beds & Bed Frames">Beds</button>
+        <button class="cat-btn" data-cat="Dining Tables & Dining Sets">Dining</button>
+        <button class="cat-btn" data-cat="Wardrobes & Almirahs">Wardrobes</button>
+        <button class="cat-btn" data-cat="Modular Kitchen Cabinets">Modular</button>
+        <button class="cat-btn" data-cat="Study Tables & Chairs">Study</button>
+        <button class="cat-btn" data-cat="TV Units / TV Cabinets">TV Units</button>
+        <button class="cat-btn" data-cat="Office Tables & Chairs">Office</button>
+        <button class="cat-btn" data-cat="Outdoor Furniture">Outdoor</button>
+    </div>
+
+    <!-- PRODUCT GRID -->
+    <div id="productGrid" class="product-grid"></div>
+
+    <!-- CUSTOMER REVIEWS -->
+    <h2 class="section-title">💬 What Our Customers Say</h2>
+    <div class="review-cards">
+        <div class="review">
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"Great quality furniture and affordable prices. The delivery was prompt and the team was very helpful."</p>
+            <p class="reviewer">— Rajesh Kumar</p>
+        </div>
+        <div class="review">
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"Very good modular kitchen work. Highly recommended. They understood our requirements perfectly."</p>
+            <p class="reviewer">— Pooja Sharma</p>
+        </div>
+        <div class="review">
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>"Excellent service and delivery. The furniture quality is top-notch. Will shop again."</p>
+            <p class="reviewer">— Amit Verma</p>
+        </div>
+    </div>
+
+    <!-- MAP SECTION -->
+    <h2 class="section-title">📍 Visit Our Store</h2>
+    <div class="map-embed">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.375416345132!2d77.123456!3d28.654321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03c536d1a2f3%3A0x12345abcd!2sSharma%20Furniture!5e0!3m2!1sen!2sin!4v1611111111111" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+        <p class="map-link">
+            <a href="https://maps.app.goo.gl/k7aq9BwJpHhvkXzFA" target="_blank">
+                <i class="fas fa-map-pin"></i> Open in Google Maps →
+            </a>
+        </p>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-info">
+                <h3>Sharma Furniture</h3>
+                <p class="footer-tagline">Quality Furniture & Modular Kitchens since 1995</p>
+                <div class="footer-contact">
+                    <p><i class="fas fa-phone"></i> <a href="tel:8630042048">8630042048</a></p>
+                    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/918630042048">WhatsApp</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:sharmafurniture.store0@gmail.com">sharmafurniture.store0@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <p><a href="#productGrid">Products</a></p>
+                <p><a href="#contact">Contact Us</a></p>
+                <p><a href="https://maps.app.goo.gl/k7aq9BwJpHhvkXzFA" target="_blank">Store Location</a></p>
+                <p><a href="#" id="privacyLink">Privacy Policy</a></p>
+            </div>
+            <div class="footer-hours">
+                <h4>Store Hours</h4>
+                <p>Mon - Sat: 10:00 AM - 8:00 PM</p>
+                <p>Sunday: 11:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sharma Furniture & Modular Kitchen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- FLOATING BUTTONS -->
+    <div class="floating-wa" id="waButton">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+    
+    <div class="floating-cart" id="cartButton">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-count" id="cartCount">0</span>
+    </div>
+
+    <!-- CART DRAWER -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="drawer-header">
+            <h3>Your Cart</h3>
+            <span class="close-cart" id="closeCartBtn">&times;</span>
+        </div>
+        <div class="cart-items" id="cartItemsContainer"></div>
+        <div class="cart-bottom">
+            <div class="grand-total">
+                <span>Grand Total</span> 
+                <span id="grandTotal">₹0</span>
+            </div>
+            <button class="place-order-btn" id="placeOrderBtn">Place Order</button>
+        </div>
+    </div>
+
+    <!-- CHECKOUT MODAL -->
+    <div class="modal" id="checkoutModal">
+        <div class="modal-content">
+            <h3>Order Details</h3>
+            <form id="orderForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Full name *" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Phone number *" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="address" placeholder="Delivery address *" rows="2" required></textarea>
+                </div>
+                <div class="form-group">
+                    <textarea id="instructions" placeholder="Special instructions (optional)" rows="2"></textarea>
+                </div>
+                <div class="order-summary-box" id="orderSummaryText">
+                    Cart summary will appear
+                </div>
+                <input type="hidden" name="_gotcha" style="display:none">
+                <button type="submit" class="submit-order">Send Order</button>
+            </form>
+            <div id="orderSuccess" style="display:none;" class="success-message">
+                <p>✅ Order placed! Sharma Furniture will contact you on WhatsApp to confirm.</p>
+                <a href="https://wa.me/918630042048?text=Hello%2C%20I%20want%20to%20ask%20about%20furniture%20from%20Sharma%20Furniture%20and%20Modular%20Kitchen." 
+                   class="wa-button" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Chat with us
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
